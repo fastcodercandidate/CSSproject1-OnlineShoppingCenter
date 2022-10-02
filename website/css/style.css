@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Poppins:wght@300;400;600;700&family=Roboto:ital,wght@1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Passions Conflict', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-image: url("https://ae01.alicdn.com/kf/HTB1vhXiSVXXXXauXXXXq6xXFXXX2/Jantung-latar-belakang-fotografi-studio-foto-latar-belakang-latar-belakang-backdrop-XT-5980.jpg_Q90.jpg_.webp");
+background-size: cover;
+}
+a{
+    color:rgb(218, 3, 39);
+
+}
+.container{
+    width: 100%;
+    background-color: rgb(15, 43, 70);
+}
+
+/*header start*/
+header{
+    height: 80px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+header nav .logo a {
+    color: aqua;
+    text-decoration:none;
+    font-weight:700;
+    font: size 20px;
+    
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+nav ul li a{
+    color:aqua;
+    text-decoration: none;
+}
+nav ul li a:hover {
+   color: black; 
+}
+nav .menu{
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+nav .menu .menu-button{
+    color: rgb(233, 6, 43);
+    text-decoration: none;
+    background-color: rgba(18, 171, 241, 0.918);
+border-radius: 56px;
+}
+nav .menu .menu-button:hover{
+    background-color: brown;
+    color: blue;
+}
+/* header start*/
+/*section start*/
+.content{
+    color: blue;
+    
+    padding-left: 300px;
+    margin-top: 50px;
+    
+    background-color: rgb(233, 169, 169);
+}
+/*section end*/
+
+/* header end*/
